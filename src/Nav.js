@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from 'react-router-dom'
 import './Nav.css'
 import logo from "./logo.png";
 function Nav() {
     const [show, handleShow] = useState(false);
-    const history = useNavigate();
 
     const hanldeNavBarSlide = () => {
         console.log("triggered", window.screenY);

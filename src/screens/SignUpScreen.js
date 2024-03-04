@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import './SignUpScreen.css';
-import { auth, db, createUserWithEmailAndPassword, signInWithEmailAndPassword } from '../datastore.js';
-import { useNavigate } from "react-router-dom"
-import HomeScreen from './HomeScreen.js';
+import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from '../datastore.js';
+
 function SignUpScreen() {
 
     const emailRef = useRef(null);

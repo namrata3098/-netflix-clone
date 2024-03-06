@@ -10,8 +10,8 @@ import { login , logout, selectUser } from './features/userSlice.js';
 
 function App() {
   const user =  selectUser;
-  const dispatch = useDispatch();
   console.log(user, "hello");
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged( (userAuth) => {
@@ -27,7 +27,7 @@ function App() {
     })
 
     return unsubscribe;
-  },[]);
+  },[dispatch]);
 
   return (
     <div className='app'>

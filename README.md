@@ -1,3 +1,8 @@
+This project is a Netflix clone built with React.js. It replicates the core functionality of Netflix, allowing users to browse movies and TV shows, view details, and watch trailers. The app utilizes the TMDb API for fetching movie data and provides a sleek, user-friendly interface reminiscent of the original Netflix design. It showcases my skills in front-end development, including React.js, API integration, and UI/UX design. Check out the live demo [here](https://master--netflix-master-clone.netlify.app/)!
+
+
+
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
